@@ -10,15 +10,12 @@ const Navbar = ({active}) => {
     const [activeLink, setActiveLink] = useState('Home');
 
   return (
-    <div className='app__navbar app__flex'>
+    <div className='app__navbar'>
         <div className='app__master-container app__navbar-all'>
             <div className='app__navbar-logo'>
                 <a href={`#Home`}>
-                    <motion.div className='app__navbar-logo-text'
-                    animate={{ backgroundSize: "500px" }}>
-                    André Matos Creative
-                    </motion.div>
-                    {<img src={images.logo} alt='andre matos creative logo'/>}
+                <img src={images.logo} alt='andre matos creative logo'/>
+                ANDRÉ MATOS CREATIVE
                 </a>
             </div>
 
@@ -39,7 +36,7 @@ const Navbar = ({active}) => {
             <div className='app__navbar-menu'>
                 <HiMenu onClick={() => setToggle(true)}/>
                 { toggle && (
-                    <motion.div whileInView = {{ x: [300, 0] }} transition = {{ duration: 0.5, ease: 'easeOut'}}>
+                    <motion.div whileInView = {{ x: [300, 0] }} transition = {{ duration: 0.3, ease: 'easeOut'}}>
                         <SlClose onClick={() => setToggle(false)}/>
                         <ul>
                         {['Home', 'About', 'Skills', 'Work', 'Testimonials', 'Contact'].map((item) => (

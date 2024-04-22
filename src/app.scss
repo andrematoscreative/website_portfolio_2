@@ -1,6 +1,5 @@
-app {
+.app {
     background-repeat: no-repeat;
-    background-color: var(--primary-color);
     font-family: var(--font-base);
 }
 
@@ -14,7 +13,6 @@ app {
         /* margin-left: 1.5rem;
         margin-right: 1.5rem; */
     }
-
 }
 
 .app__flex {
