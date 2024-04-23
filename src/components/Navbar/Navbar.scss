@@ -61,7 +61,7 @@
             transition: all 0.3s ease-in-out;
 
             &:hover {
-                color: var(--lightGray-color);
+                color: var(--hover-color);
             }
 
         }
@@ -100,7 +100,7 @@
         color: var(--secondary-color);
         
         &:hover {
-            color: var(--lightGray-color); 
+            color: var(--hover-color); 
         }
     }
 
@@ -151,7 +151,7 @@
                     transition: all 0.3s ease-in-out;
         
                     &:hover {
-                        color: var(--lightGray-color);
+                        color: var(--hover-color);
                     }
         
                 }

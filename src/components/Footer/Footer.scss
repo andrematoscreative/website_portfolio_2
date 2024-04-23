@@ -1,6 +1,6 @@
 .app__Footer {
     background: #0c0c0c;
-    padding: 20px;
+    padding: 12px;
     text-align: center;
     justify-content: space-between;
     bottom: 0;
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: 14px;
 
     @media screen and (max-width: 450px) {
       font-size: 0.85rem;
@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-size: 1rem;
+    font-size: 14px;
 
     @media screen and (max-width: 450px) {
       font-size: 0.85rem;

@@ -18,6 +18,9 @@ import Patricia_Silva_photo from '../assets/Patricia_Silva_photo.jpg';
 import andrematos_creative_photo from '../assets/andrematos_creative_photo.png';
 import header_background from '../assets/header_background.png';
 import logo from '../assets/logo.png';
+import card_1 from '../assets/card_1.png';
+import card_2 from '../assets/card_2.png';
+import card_3 from '../assets/card_3.png';
 
 
 export default {
@@ -39,4 +42,7 @@ export default {
   logo,
   mafalda_palolo_photo,
   Patricia_Silva_photo,
+  card_1,
+  card_2,
+  card_3,
 };
