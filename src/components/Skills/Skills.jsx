@@ -27,77 +27,102 @@ const Skills = () => {
             
             </div>
             <div className="app__Skills-container">
-            <motion.div className="app__Skills-list">
                 <motion.div
                 whileInView={{ opacity: [0, 1] }}
-                transition={{ duration: 2 }}
-                className="app__Skills-item">
+                transition={{ duration: 2 }}>
 
                     <div className='app__Skills-item_row1'>
-                        <div className="app__Skills-item-item1">
-                            <img src={images.javascript} alt='javascript'/>
+                        
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.javascript} alt='javascript'/>
+                            </div>
                             <p className="p-text">Javascript</p>
                         </div>
                         
-                        <div className="app__Skills-item-item2">
-                            <img src={images.html} alt='html'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.html} alt='html'/>
+                            </div>
                             <p className="p-text">Html</p>
                         </div>
 
-                        <div className="app__Skills-item-item3">
-                            <img src={images.css} alt='Css'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.css} alt='Css'/>
+                            </div>
                             <p className="p-text">Css</p>
                         </div>
 
-                        <div className="app__Skills-item-item4">
-                            <img src={images.react} alt='react'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.react} alt='react'/>
+                            </div>
                             <p className="p-text">React</p>
                         </div>
                         
-                        <div className="app__Skills-item-item5">
-                            <img src={images.sass} alt='sass'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.sass} alt='sass'/>
+                            </div>
                             <p className="p-text">Sass</p>
                         </div>
 
-                        <div className="app__Skills-item-item6">
-                            <img src={images.node} alt='node'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.node} alt='node'/>
+                            </div>
                             <p className="p-text">Node Js</p>
                         </div>
+
                     </div>
                     <div className='app__Skills-item_row2'>
-                        <div className="app__Skills-item-item7">
-                            <img src={images.redux} alt='redux'/>
+
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.redux} alt='redux'/>
+                            </div>
                             <p className="p-text">Redux</p>
                         </div>
 
-                        <div className="app__Skills-item-item8">
-                            <img src={images.git} alt='git'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.git} alt='git'/>
+                            </div>
                             <p className="p-text">Git</p>
                         </div>
 
-                        <div className="app__Skills-item-item9">
-                            <img src={images.figma} alt='figma'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.figma} alt='figma'/>
+                            </div>
                             <p className="p-text">Figma</p>
                         </div>
 
-                        <div className="app__Skills-item-item10">
-                            <img src={images.photoshop} alt='photoshop'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.photoshop} alt='photoshop'/>
+                            </div>
                             <p className="p-text">Photoshop</p>
                         </div>
 
-                        <div className="app__Skills-item-item11">
-                            <img src={images.illustrator} alt='illustrator'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.illustrator} alt='illustrator'/>
+                            </div>
                             <p className="p-text">Illustrator</p>
                         </div>
 
-                        <div className="app__Skills-item-item12">
-                            <img src={images.aftereffects} alt='aftereffects'/>
+                        <div className="app__Skills-item">
+                            <div className="app__Skills-image-container">
+                                <img className="app__Skills-image" src={images.aftereffects} alt='aftereffects'/>
+                            </div>
                             <p className="p-text">After Effects</p>
                         </div>
+
                     </div>
 
                 </motion.div>
-            </motion.div>
             </div>
 
                 {/*<div className="app__Skills-container">
