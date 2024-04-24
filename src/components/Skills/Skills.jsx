@@ -28,8 +28,8 @@ const Skills = () => {
             </div>
             <div className="app__Skills-container">
                 <motion.div
-                whileInView={{ opacity: [0, 1] }}
-                transition={{ duration: 2 }}>
+                whileInView={{ y: [-40, 0],opacity: [0, 1] }}
+                transition={{ duration: 1.5 }}>
 
                     <div className='app__Skills-item_row1'>
                         
