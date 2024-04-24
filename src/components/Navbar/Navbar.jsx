@@ -20,7 +20,7 @@ const Navbar = ({active}) => {
             </div>
 
             <ul className='app__navbar-links'>
-                {['Home', 'About', 'Skills', 'Work', 'Testimonials', 'Contact'].map((item) => (
+                {['Home', 'About', 'Skills', 'Works', 'Testimonials', 'Contact'].map((item) => (
                     <li key={`link-${item}`}>
                         <div />
                         <a 
@@ -39,7 +39,7 @@ const Navbar = ({active}) => {
                     <motion.div whileInView = {{ x: [300, 0] }} transition = {{ duration: 0.3, ease: 'easeOut'}}>
                         <SlClose onClick={() => setToggle(false)}/>
                         <ul>
-                        {['Home', 'About', 'Skills', 'Work', 'Testimonials', 'Contact'].map((item) => (
+                        {['Home', 'About', 'Skills', 'Works', 'Testimonials', 'Contact'].map((item) => (
                             <li key= {item}>
                                 <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                             </li>

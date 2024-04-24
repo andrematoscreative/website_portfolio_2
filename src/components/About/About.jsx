@@ -37,7 +37,7 @@ const About = () => {
                     </motion.div>
                     <motion.div
                     whileInView={{ y: [-15, 0], opacity: [0,1] }}
-                    transition={{ duration: 1.5, delay:1.5}} className='app__About-desc-container-icons'>
+                    transition={{ duration: 1, delay:1}} className='app__About-desc-container-icons'>
                         <a className="app__About-desc-container-linkedin" href="https://linkedin.com/in/andrematoscreative"target="_blank">
                         <BsLinkedin/>
                         </a>
