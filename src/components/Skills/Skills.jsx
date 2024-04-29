@@ -124,62 +124,6 @@ const Skills = () => {
 
                 </motion.div>
             </div>
-
-                {/*<div className="app__Skills-container">
-                    <div class="app__Skills-container-row">
-                        <div class="skill">
-                            <img src={images.javascript} alt='javascript'/>
-                            <p>Javascript</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.html} alt='html'/>
-                            <p>Html</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.css} alt='Css'/>
-                            <p>Css</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.react} alt='react'/>
-                            <p>React</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.sass} alt='sass'/>
-                            <p>Sass</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.node} alt='node'/>
-                            <p>Node Js</p>
-                        </div>
-                    </div>
-                    <div class="app__Skills-container-row">
-                        <div class="skill">
-                            <img src={images.redux} alt='redux'/>
-                            <p>Redux</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.git} alt='git'/>
-                            <p>Git</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.figma} alt='figma'/>
-                            <p>Figma</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.photoshop} alt='photoshop'/>
-                            <p>Photoshop</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.illustrator} alt='illustrator'/>
-                            <p>Illustrator</p>
-                        </div>
-                        <div class="skill">
-                            <img src={images.aftereffects} alt='aftereffects'/>
-                            <p>After Effects</p>
-                        </div>
-                    </div>
-                </div>*/}
-
         </div>
       </div>
     </div>
