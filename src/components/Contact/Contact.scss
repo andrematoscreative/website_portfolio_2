@@ -90,6 +90,7 @@
         border-radius: 4px;
         margin-bottom: 20px;
         border-radius: 15px;
+        box-shadow: 2px 5px 9px var(--lightGray-color);
 
         @media screen and (max-width: 450px) {
           width: 400px;
@@ -101,21 +102,23 @@
   }
 
     &-form button {
-      font-size: 1rem;
-      font-weight: 600;
-      padding: 10px 20px;
-      height: 48px;
-      background-color: var(--secondary-color);
-      color: var(--primary-color);
-      border: none;
-      border-radius: 15px;
-      cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 20px;
+        height: 48px;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 2px 5px 9px var(--lightGray-color);
     }
 
     &-form button:hover {
-      color: #fff;
-      box-shadow: 0 0 10px var(--lightblue-color);
-      transition: all 0.5s ease-in-out;
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        box-shadow: 2px 5px 9x var(--lightGray-color);
+        transition: all 0.3s ease-in-out;
     }
 
     @media screen and (max-width: 450px) {
@@ -129,28 +132,6 @@
     @media screen and (max-width: 450px) {
       font-size: 1.5rem;
     }
-  }
-}
-
-.app__Contact-desc-container-icons a svg {
-  margin-right: 20px;
-  margin-top: 40px;
-  color: var(--lightblue-color);
-  height: 24px;
-  width: 24px;
-
-  &:hover {
-    color: var(--white-color);
-    transition: all 0.3s ease-in-out;
-
-    svg {
-      color: var(--lightblue-color);
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    margin-top: 30px;
-    margin-left: 0px;
   }
 }
 
