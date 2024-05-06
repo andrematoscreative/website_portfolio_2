@@ -88,5 +88,12 @@ const Contact = () => {
                   Thank you for getting in touch!
                 </h3>
               </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Contact; /*test*/
