@@ -1,0 +1,156 @@
+.app__Contact {
+    position: relative; 
+    width: 100%;
+    user-select: none;
+  }
+  
+  .app__Contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .app__Contact-title {
+    max-width: 420px;
+    margin-top: 40px;
+    
+    &-title {
+      margin-bottom: 8px; 
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--primary-color);
+      
+      @media screen and (max-width: 900px) {
+        margin-left: 1rem;
+      }
+  
+      @media screen and (max-width: 450px) {
+        font-size: 2rem;
+        margin-bottom: 8px;
+        margin-top: 100px;
+      }
+    }
+      
+    &-info {
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--primary-color);
+      line-height: 1.6rem;
+  
+      @media screen and (max-width: 900px) {
+        margin-left: 1rem;
+      }
+  
+      @media screen and (max-width: 450px) {
+        font-size: 1rem;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+  }
+  
+  .app__Contact-blink {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--primary-color);
+    user-select: none;
+    visibility: hidden;
+    animation: blink .85s infinite;
+    animation-delay: 2s;
+  
+    @media screen and (max-width: 450px) {
+      font-size: 1rem;
+    }
+  }
+
+.app__Contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+    .app__Contact-content-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-form input, textarea {
+        color: var(--primary-color);
+        font-size: 1rem;
+        width: 500px;
+        height: 56px;
+        padding: 10px;
+        border: 2px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+
+        @media screen and (max-width: 450px) {
+          width: 400px;
+        }
+    }
+
+    &-form textarea {
+      height: 144px;
+  }
+
+    &-form button {
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 10px 20px;
+      height: 48px;
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    &-form button:hover {
+      color: #fff;
+      box-shadow: 0 0 10px var(--lightblue-color);
+      transition: all 0.5s ease-in-out;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding: 10px;
+    }
+
+  .app__Contact-content-form-message{
+    color: #ffffff;
+    font-size: 3.5rem;
+    
+    @media screen and (max-width: 450px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.app__Contact-desc-container-icons a svg {
+  margin-right: 20px;
+  margin-top: 40px;
+  color: var(--lightblue-color);
+  height: 24px;
+  width: 24px;
+
+  &:hover {
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+
+    svg {
+      color: var(--lightblue-color);
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
+

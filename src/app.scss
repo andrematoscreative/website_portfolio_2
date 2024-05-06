@@ -1,0 +1,23 @@
+.app {
+    background-repeat: no-repeat;
+    font-family: var(--font-base);
+    background-color: var(--secondary-color);
+}
+
+.app__master-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1224px;
+    width: 100%;
+    
+    @media screen and (max-width: 450px) {
+        /* margin-left: 1.5rem;
+        margin-right: 1.5rem; */
+    }
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
