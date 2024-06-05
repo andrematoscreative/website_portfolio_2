@@ -80,7 +80,14 @@
     
     @media screen and (max-width: 900px) {
         flex-direction: column;
+        padding: 1rem;
     }
+}
+
+.app__About-desc-container{
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding:20px;
 }
 
 .app__About-desc-container-text {
@@ -92,7 +99,6 @@
     
     @media screen and (max-width: 900px) {
         max-width: 700px;
-        padding: 1rem;
     }
     
     @media screen and (max-width: 450px) {

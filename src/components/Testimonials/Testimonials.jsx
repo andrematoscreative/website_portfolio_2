@@ -42,19 +42,21 @@ const Testimonials = () => {
         <div className='app__testimonials-info'>
           <div className='app__testimonials-title'>
             <motion.div
-              whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+              whileInView={{ x: [-90, 0], opacity: [0, 1] }}
               transition={{ duration: 1 }}
               className='app__testimonials-title-title'>Testimonials
             </motion.div>
             <motion.div
-              whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+              whileInView={{ x: [-90, 0], opacity: [0, 1] }}
               transition={{ duration: 1.5 }}
               className='app__testimonials-title-info'>words of clients, collaborators and organizations who I have helped to empower and reach their fullest potential.
               <div className='app__Testimonials-blink'>|</div>
             </motion.div>
           </div>
 
-          <div className='app__testimonials-info-content'>
+          <motion.div
+            whileInView={{ y: [-30, 0], opacity: [0,1] }}
+            transition={{ duration: 1.5 }}className='app__testimonials-info-content'>
             <div className='app__testimonials-box'>
               <div className="app__testimonials-btn-left"
                 onClick={() => handleClick(currentIndex === 0 ? Testimonials_data.length - 1 : currentIndex - 1)}>
@@ -88,7 +90,7 @@ const Testimonials = () => {
                 <HiChevronRight />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
