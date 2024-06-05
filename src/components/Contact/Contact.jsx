@@ -63,7 +63,9 @@ const Contact = () => {
             </motion.div>
           </div>
 
-          <div className='app__Contact-content'>
+          <motion.div
+            whileInView={{ y: [-30, 0], opacity: [0,1] }}
+            transition={{ duration: 1.5 }} className='app__Contact-content'>
             {!isFormSubmitted && showForm && (
               <form className="app__Contact-content-form" onSubmit={handleSubmit}>
                 <div>
@@ -89,11 +91,11 @@ const Contact = () => {
                 </h3>
               </div>
             )}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Contact;
+export default Contact; /*test*/
