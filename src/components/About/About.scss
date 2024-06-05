@@ -86,12 +86,13 @@
 
 .app__About-desc-container{
     border: 2px solid var(--primary-color);
+    box-shadow: 1px 3px 5px var(--primary-color);
     border-radius: 15px;
     padding:20px;
+    max-width: 650px;
 }
 
 .app__About-desc-container-text {
-    max-width: 650px;
     align-items: center;
     line-height: 2rem;
     font-size: 18px;
@@ -108,7 +109,7 @@
 }
 
 .app__About-desc-container-icons {
-    margin-top: 40px;
+    margin-top: 20px;
 
     a {
         margin-right: 20px;
