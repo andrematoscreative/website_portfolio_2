@@ -124,12 +124,13 @@
 
 .app__About-desc-img img {
     display: flex;
-    max-width: 520px;
+    max-width: 600px;
     justify-content: center;
     align-items: center;
   
     @media screen and (max-width: 900px) {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        max-width: 450px;
     }
     
     @media screen and (max-width: 450px) {

@@ -51,9 +51,11 @@ const About = () => {
                       </a>
                   </motion.div> 
               </div>
-                <div className='app__About-desc-img'>
-                <img src={images.andrematos_creative_photo} alt='andrematos_creative_photo'/>
-                </div>
+            <motion.div
+            whileInView={{ y: [30, 0], opacity: [0,1] }}
+            transition={{ duration: 1.5 }}className='app__About-desc-img'>
+            <img src={images.andrematos_creative_photo}alt='andrematos_creative_photo'/>
+            </motion.div>
           </div>
         </div>
       </div>
