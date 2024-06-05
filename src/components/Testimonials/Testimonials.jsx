@@ -50,7 +50,7 @@ const Testimonials = () => {
               whileInView={{ x: [-100, 0], opacity: [0, 1] }}
               transition={{ duration: 1.5 }}
               className='app__testimonials-title-info'>words of clients, collaborators and organizations who I have helped to empower and reach their fullest potential.
-              <div className='app__Skills-blink'>|</div>
+              <div className='app__Testimonials-blink'>|</div>
             </motion.div>
           </div>
 
