@@ -37,14 +37,14 @@ const Testimonials = () => {
   };
 
   return (
-    <div className='app__testimonials app__flex'>
+    <div className='app__testimonials app__flex' id='Testimonials'>
       <div className='app__master-container'>
         <div className='app__testimonials-info'>
           <div className='app__testimonials-title'>
             <motion.div
               whileInView={{ x: [-100, 0], opacity: [0, 1] }}
               transition={{ duration: 1 }}
-              className='app__testimonials-title-title'>&lt;testimonials/&gt;
+              className='app__testimonials-title-title'>Testimonials
             </motion.div>
             <motion.div
               whileInView={{ x: [-100, 0], opacity: [0, 1] }}
